@@ -1,0 +1,21 @@
+{
+    "name": "almat/composer-exemple-package",
+    "description": "Exemple project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Almat Alimhan",
+            "email": "al_mat_94@mail.ru"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "almat\\parser\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
